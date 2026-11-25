@@ -160,6 +160,7 @@ details p { color: var(--text-2); font-size: 16px; }
 .feature p.text { margin-left: auto; margin-right: auto; max-width: 900px; }
 .feature h2 { max-width: 900px; margin-left: auto; margin-right: auto; }
 .media { max-width: 900px; margin: 0 auto 24px; position: relative; }
+.hero .media { max-width: none; }
 .media img, .media video { display: block; width: 100%; height: auto; }
 .clip .toggle {
   display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px;
