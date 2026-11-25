@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ceo-of-agents: you're the CEO, your agents are the company</title>
+<meta name="description" content="A Claude Code plugin and Mac app: a chief of staff and departments that work from one git repo you own, and ask your OK before anything important.">
+<link rel="canonical" href="https://ceo-of-agents.github.io/">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8FAFC">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F172A">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ceo-of-agents.github.io/">
+<meta property="og:title" content="ceo-of-agents: you're the CEO, your agents are the company">
+<meta property="og:description" content="A Claude Code plugin and Mac app: a chief of staff and departments that work from one git repo you own, and ask your OK before anything important.">
+<meta property="og:image" content="https://ceo-of-agents.github.io/assets/media/social-preview.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="ceo-of-agents: You're the CEO. Your agents are the company.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ceo-of-agents: you're the CEO, your agents are the company">
+<meta name="twitter:description" content="A Claude Code plugin and Mac app: a chief of staff and departments that work from one git repo you own, and ask your OK before anything important.">
+<meta name="twitter:image" content="https://ceo-of-agents.github.io/assets/media/social-preview.png">
+<meta name="twitter:image:alt" content="ceo-of-agents: You're the CEO. Your agents are the company.">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip on-ink" href="#content">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="lockup" href="./"><img src="assets/logo-lockup.svg" alt="ceo-of-agents" height="48"></a>
+    <nav class="nav" aria-label="Project links">
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-core">Plugin on GitHub</a>
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-desktop">App on GitHub</a>
+      <a class="gh-btn" href="https://github.com/ceo-of-agents" aria-label="ceo-of-agents on GitHub"><svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="gh-label">GitHub</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+  <section class="hero on-ink">
+    <div class="wrap">
+      <p class="chip">Claude Code plugin · Mac app</p>
+      <h1>You're the CEO.
+        <span>Your agents are the company.</span></h1>
+      <p class="lead">A chief of staff and departments that work from one git repo you own, and ask your OK before anything important.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/ceo-of-agents/ceo-of-agents-desktop/releases/latest">Download for macOS</a>
+        <a class="btn btn-secondary" href="#install">Install the Claude Code plugin</a>
+      </div>
+      <p class="note">macOS (Apple silicon) · free and open source · needs Claude Code, signed in</p>
+      <p class="note">The app opens an hq made with the plugin: no hq yet? Start with the plugin.</p>
+      <figure class="media">
+        <img src="assets/media/hero.png" width="1442" height="902" alt="The CEO of Agents window: on the left, the list of orgs; in the middle, a conversation with the chief of staff, Ada, with a formatted reply and a finished task summary; on the right, the Waiting on you list with three items to approve or decide, and the org's initiatives">
+      </figure>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="what">
+    <div class="wrap">
+      <h2 id="what">What it does</h2>
+      <ul class="what">
+        <li><span class="marker" aria-hidden="true"></span><span><a href="#chief-of-staff">A chief of staff you talk to</a>: say what you need in plain language; it frames it, routes it and tells you what waits on you.</span></li>
+        <li><span class="marker" aria-hidden="true"></span><span><a href="#departments">Departments that do the work</a>: engineering, design, growth or your own; you pick them, name them and decide how they work.</span></li>
+        <li><span class="marker violet" aria-hidden="true"></span><span><a href="#your-ok">Nothing important without your OK</a>: merging, publishing, spending money, contacting people; each one waits for you with a short code.</span></li>
+        <li><span class="marker" aria-hidden="true"></span><span><a href="#hq">One git repo you own</a>: every decision, plan and number is written down in your hq, so nothing gets lost between sessions.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="install" aria-labelledby="start">
+    <div class="wrap">
+      <h2 id="start">Get started</h2>
+      <div class="cols">
+        <div class="card">
+          <h3>1. The Claude Code plugin</h3>
+          <p>Works in the Claude Code terminal, desktop app or IDE extension. Open an empty folder for your hq in Claude Code and run these one at a time:</p>
+          <div class="cmd"><pre tabindex="0"><code>/plugin marketplace add ceo-of-agents/ceo-of-agents-core</code></pre><button class="copy" type="button" hidden data-copy="/plugin marketplace add ceo-of-agents/ceo-of-agents-core" aria-label="Copy command: /plugin marketplace add ceo-of-agents/ceo-of-agents-core">Copy</button></div>
+          <div class="cmd"><pre tabindex="0"><code>/plugin install ceo-of-agents@ceo-of-agents</code></pre><button class="copy" type="button" hidden data-copy="/plugin install ceo-of-agents@ceo-of-agents" aria-label="Copy command: /plugin install ceo-of-agents@ceo-of-agents">Copy</button></div>
+          <p class="caption-small">When asked where to install, pick project scope.</p>
+          <div class="cmd"><pre tabindex="0"><code>/ceo-of-agents:init-fleet</code></pre><button class="copy" type="button" hidden data-copy="/ceo-of-agents:init-fleet" aria-label="Copy command: /ceo-of-agents:init-fleet">Copy</button></div>
+          <p><a href="https://github.com/ceo-of-agents/ceo-of-agents-core#3-install">Full install guide</a></p>
+        </div>
+        <div class="card">
+          <h3>2. The Mac app (optional)</h3>
+          <p>The desktop app for ceo-of-agents: talk to your chief of staff, approve what waits on you and watch your departments work, in one window, on your own Claude Code. It never asks for a password or an API key, never reads your credentials and never calls the Claude API itself.</p>
+          <div class="btn-row"><a class="btn btn-primary" href="https://github.com/ceo-of-agents/ceo-of-agents-desktop/releases/latest">Download for macOS</a></div>
+          <p class="note">Opens an hq made with the plugin.</p>
+          <details>
+            <summary>First open on macOS</summary>
+            <p>The app is not notarized by Apple yet, so macOS blocks the first open of a downloaded copy: when macOS says "Not Opened", choose Done. Then open System Settings &gt; Privacy &amp; Security, scroll to Security and click Open Anyway next to "CEO of Agents". From then on it opens normally.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block feature" id="chief-of-staff" aria-labelledby="h-cos">
+    <div class="wrap"><div class="block-inner">
+      <h2 id="h-cos">A chief of staff you talk to</h2>
+      <div class="media clip">
+        <video class="clip-video" width="1442" height="902" controls muted loop playsinline preload="none" poster="assets/media/dispatch-poster.png" aria-label="Animation: you ask the chief of staff to fix a typo on the login page; the chief of staff sends the work to the engineering department, shown as running, then done; a label says a handoff is waiting"><source src="assets/media/dispatch.mp4" type="video/mp4"></video>
+        <button class="toggle" type="button" hidden>Play</button>
+      </div>
+      <p class="text">Open a session and your chief of staff gives you a short status and what waits on you. Ask for anything in plain language: it turns the ask into a decision, a task for a department or a note, and writes it down.</p>
+      <p class="caption"><strong>One thread</strong> with your chief of staff that keeps going across days, in the app or in Claude Code.</p>
+    </div></div>
+  </section>
+
+  <section class="block feature" id="departments" aria-labelledby="h-dep">
+    <div class="wrap"><div class="block-inner">
+      <h2 id="h-dep">Departments that do the work</h2>
+      <figure class="media"><img src="assets/media/org-chart.png" width="1442" height="902" loading="lazy" alt="The org chart: you at the top, the chief of staff Ada below, and three departments with their model and status; engineering is running"></figure>
+      <figure class="media"><img src="assets/media/department-chat.png" width="1442" height="902" loading="lazy" alt="A chat with the engineering department, Max, with a reply and the Hand over button"></figure>
+      <p class="text">Each department has its own charter and its own tools. It does the work, then leaves a handoff for your chief of staff, so you read one summary instead of every step.</p>
+      <p class="caption"><strong>Department chats</strong> that run side by side and end with a handoff to your chief of staff.</p>
+    </div></div>
+  </section>
+
+  <section class="block feature" id="your-ok" aria-labelledby="h-ok">
+    <div class="wrap"><div class="block-inner">
+      <h2 id="h-ok"><span class="marker violet" aria-hidden="true"></span>Nothing important without your OK</h2>
+      <div class="media clip">
+        <video class="clip-video" width="1442" height="902" controls muted loop playsinline preload="none" poster="assets/media/approve-poster.png" aria-label="Animation: in the Waiting on you list you approve an item; an undo bar counts down for four seconds; the item leaves the list and the counter drops by one"><source src="assets/media/approve.mp4" type="video/mp4"></video>
+        <button class="toggle" type="button" hidden>Play</button>
+      </div>
+      <figure class="media"><img src="assets/media/permission.png" width="1442" height="902" loading="lazy" alt="A permission card in the conversation: Claude Code asks to run git push origin feat/x, with the buttons Allow, Always allow and Deny"></figure>
+      <p class="text">Safe work, like drafts and research, just happens. Anything that goes outside or can't be undone waits for you: merging, publishing, spending money, contacting people. Each item has a short code, so you clear several at once: "Approve ACME-A2, ACME-A3."</p>
+      <p class="caption"><strong>Waiting on you:</strong> every approval and decision in one list. Approve, decline or pick an option in one click, with undo.</p>
+    </div></div>
+  </section>
+
+  <section class="block feature" id="hq" aria-labelledby="h-hq">
+    <div class="wrap"><div class="block-inner">
+      <h2 id="h-hq">One git repo you own</h2>
+      <figure class="media"><img src="assets/diagram.svg" width="1200" height="520" loading="lazy" alt="Diagram: you, then your chief of staff, then the departments; every decision lands as a commit in your hq."></figure>
+      <p class="text">Your hq is a git repo on your computer, and a private repo on GitHub if you want. Decisions, plans, briefs and numbers land there as commits, and every session starts from it, so nothing depends on a chat history.</p>
+      <p class="caption"><strong>hq health</strong> at a glance in the app: in sync, pushed, nothing left running.</p>
+    </div></div>
+  </section>
+
+  <section class="block feature" aria-labelledby="tour">
+    <div class="wrap"><div class="block-inner">
+      <h2 id="tour">Watch it work</h2>
+      <div class="media">
+        <video width="1920" height="1080" controls preload="metadata" playsinline poster="assets/media/product-video-poster.png"><source src="assets/media/product-video.mp4" type="video/mp4"></video>
+      </div>
+      <p class="caption"><a href="https://github.com/ceo-of-agents/ceo-of-agents-core#readme">Watch the plugin video</a></p>
+    </div></div>
+  </section>
+
+  <section class="block" aria-labelledby="need">
+    <div class="wrap">
+      <h2 id="need">What you need</h2>
+      <ul class="need">
+        <li>Claude Code on your computer, signed in with your own account.</li>
+        <li>git, and a folder for your hq. A GitHub account if you want to keep the hq online as a private repo.</li>
+        <li>For the app: a Mac, and the GitHub CLI (<code>gh</code>), signed in, for in-app updates.</li>
+      </ul>
+      <p>No servers, no extra API keys, nothing running in the background: it works only while you have a session open.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="lockup" href="./"><img src="assets/logo-lockup.svg" alt="ceo-of-agents" height="48"></a>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-core">Plugin</a>
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-desktop">Mac app</a>
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-desktop/releases/latest">Releases</a>
+      <a href="https://github.com/ceo-of-agents/ceo-of-agents-core/blob/main/LICENSE">Licence (MIT)</a>
+      <a href="https://github.com/ceo-of-agents">GitHub</a>
+    </nav>
+    <p class="note">ceo-of-agents is an independent open-source project. It is not made by, affiliated with or endorsed by Anthropic. Claude Code is a product of Anthropic.</p>
+  </div>
+</footer>
+<div id="live" class="sr-only" aria-live="polite"></div>
+</body>
+</html>
